@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+.one{
+    background:#f2f3fa url(https://images.unsplash.com/photo-)
+    no-repeat center top fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    height:15vh;
+    position: relative;
+    padding-top:4rem;
+}
+.tow{
+    text-align:center;  
+    color:#fff;
+    display:-ms-flexbox; /* IE10 */
+    display: flex;
+    justify-content: space-between;/* align horizontal */
+    width:96%;
+    max-width:80em;
+    margin:auto;
+    
+}
